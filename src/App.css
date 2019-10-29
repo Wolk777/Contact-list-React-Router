@@ -1,0 +1,30 @@
+body{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 500px;
+  margin:10px auto;
+  padding: 15px;
+  background-color: #91cef7;
+}
+
+.addContact{
+	display: block;
+	width: 250px;
+	margin:0 auto;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 1.5em;
+	color:Darkred;
+	cursor: pointer;
+	text-shadow: 2px 2px 2px white;
+}
+.addContact .fa-user-plus{
+	margin-right: 20px;
+}
+.notFound{
+	font-size: 2.7em;
+	color: red;
+	text-align: center;
+}
