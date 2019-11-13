@@ -1,0 +1,26 @@
+.userList li{
+  padding: 3px;
+  display: flex;
+  align-items: center;
+}
+.userList span{
+  padding: 0 7px;
+}
+.userList li:hover{
+  color: #222;
+}
+.userList li:hover .fa-times{
+  color: red;
+  cursor: pointer;
+}
+.userList li:hover .fa-edit{
+  color: Darkred;
+/*  color: #A5FF4A;*/
+  cursor: pointer;
+}
+.userList .control{
+  margin-left: auto;
+}
+.control i{
+	margin:0 4px;
+}
